@@ -1,7 +1,66 @@
-.App {
-  background: rgb(231, 230, 226);
-  min-height: 100vh;
-}
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=Poppins:wght@400;500;600&display=swap');
+
+/* font-family: 'Playfair Display', serif; */
+
 .login-form {
   width: 400px;
+}
+body{
+    background: #f8f9fa;
+    font-family: 'Poppins', sans-serif;
+}
+nav.navbar{
+    padding-top: 1.6rem;
+    padding-bottom: 1.6rem;
+    box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    background-color: #fff !important;
+}
+
+nav.navbar .nav-link{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+}
+nav.navbar .navbar-brand{
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+.form-label, .btn{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+}
+.form-label{
+    margin-bottom: 0.8rem ;
+}
+section{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.page-title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+h2{
+    font-family: 'Playfair Display', serif;
+}
+
+.login{
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 2.5rem;
+}
+.form-control, .btn{
+    border-radius: 25px; 
+    padding:0.5rem 1.5rem
+}
+
+.form-bottom h3{
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1rem;
 }
